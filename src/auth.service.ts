@@ -82,7 +82,7 @@ export class AuthService {
                                                         }
                                                     });
                                                 }
-                                            }, {scope: 'email', auth_type: "rerequest"});
+                                            }, {scope: 'email https://www.google.com/m8/feeds', auth_type: "rerequest"});
                                         }
                                     });
                                     break;
